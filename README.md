@@ -4,7 +4,7 @@
 [![Build Status][cli-img]][cli-url]
 [![Support Chat][git-img]][git-url]
 
-Apply proportional horizontal and vertical spacing with ratios using a unitless quantity.
+Create vertical and horizontal proportional spacing using ratios.
 
 ```css
 .example {
@@ -24,9 +24,9 @@ Outputs:
 }
 ```
 
-When a ratio is used the value is calculated by multiplying the the adjacent sides. The respected top and right sides are checked first, and if not set then the respective bottom and right sides are checked.
+When a ratio is used the value is calculated by multiplying the the adjacent sides. The respective top and right sides are checked first, and if not set then the respective bottom and right sides are checked.
 
-Please let me know if you find this is not useful or if you have another suggestion as there may be a better way to manage the logic behind this that I haven't thought of.
+Please let me know if you think this is not useful or if you have another suggestion as there may be a better way to manage the logic behind this that I haven't thought of.
 
 ## Setup
 
