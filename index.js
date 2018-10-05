@@ -1,7 +1,7 @@
 import postcss from "postcss";
 import { getProperties, setValues } from "./lib/get-properties";
 // import { updateProperties } from './lib/update-properties';
-// import { replaceValues } from './lib/methods';
+import { replaceValues } from "./lib/methods";
 
 // const SIDES = /padding-top|padding-right|padding-bottom|padding-left/g;
 
@@ -12,6 +12,11 @@ export default postcss.plugin("postcss-proportional-spacing", opts => {
     root.walkRules(rule => {
       getProperties(rule, "padding");
       setValues("padding");
+      replaceValues(rule, "padding");
+
+      getProperties(rule, "margin");
+      setValues("margin");
+      replaceValues(rule, "margin");
     });
   };
 });

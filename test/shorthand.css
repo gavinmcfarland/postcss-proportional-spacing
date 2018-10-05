@@ -1,6 +1,7 @@
 .shorthand {
-  /* padding: 80px 0.5 1 0.5; */
-  /* padding: 0.5 80px 0.5 1; */
-  /* padding: 1 0.5 80px 0.5; */
-  padding: 0.5 1 0.5 80px;
+  margin: 0.5 0.5 80px 0.5;
+
+  padding-right: 0.5;
+  padding-bottom: 0.5;
+  padding-top: 80px;
 }
