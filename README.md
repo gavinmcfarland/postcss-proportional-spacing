@@ -24,9 +24,39 @@ Outputs:
 }
 ```
 
-When a ratio is used the value is calculated by multiplying the the adjacent sides. The respective top and right sides are checked first, and if not set then the respective bottom and right sides are checked.
+When a ratio is used the value is calculated by multiplying against the adjacent sides. The respective top and right sides are checked first, and if no value is set then the respective bottom and left sides are checked.
 
 Please let me know if you think this is not useful or if you have another suggestion as there may be a better way to manage the logic behind this that I haven't thought of.
+
+## Using with variables
+
+You may consider using it with sass variables or custom values.
+
+### SASS Variables
+
+https://github.com/jonathantneal/postcss-advanced-variables
+
+```scss
+$ratio-octave: 0.5;
+
+.button {
+  padding: 40px $ratio-octave;
+}
+```
+
+### Custom Values
+
+https://github.com/mindthetic/postcss-custom-values
+
+```css
+@value OCTAVE property(padding) {
+  value: 1.5;
+}
+
+.button {
+  padding: 40px OCTAVE;
+}
+```
 
 ## Setup
 
