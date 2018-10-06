@@ -1,6 +1,6 @@
 {
   "name": "postcss-proportional-spacing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apply proportional horizontal and vertical spacing with ratios using a unitless quantity.",
   "author": "Gavin McFarland <gavin@mindthetic.om>",
   "license": "CC0-1.0",
