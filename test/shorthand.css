@@ -1,7 +1,7 @@
 .shorthand {
-  margin: 0.5 0.5 80px 0.5;
+	padding: 1 10px;
+}
 
-  padding-right: 0.5;
-  padding-bottom: 0.5;
-  padding-top: 80px;
+.shorthand-two {
+  padding: 20px * 1;
 }
