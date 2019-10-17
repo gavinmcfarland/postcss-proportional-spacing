@@ -66,8 +66,8 @@ Add to your project:
 npm install postcss-proportional-spacing --save-dev
 ```
 
-[cli-img]: https://img.shields.io/travis/mindthetic/postcss-proportional-spacing.svg
-[cli-url]: https://travis-ci.org/mindthetic/postcss-proportional-spacing
+[cli-img]: https://img.shields.io/travis/limitlessloop/postcss-proportional-spacing.svg
+[cli-url]: https://travis-ci.org/limitlessloop/postcss-proportional-spacing
 [git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/postcss/postcss
 [npm-img]: https://img.shields.io/npm/v/postcss-proportional-spacing.svg
